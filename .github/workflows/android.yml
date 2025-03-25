@@ -23,7 +23,7 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Build with Gradle
-      run: ./gradlew build  --gradle-version 5.4.1 --distribution-type all
+      run: ./gradlew build
     - name: Create APK
       run: ./gradlew assembleRelease
 
